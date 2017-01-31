@@ -1,0 +1,50 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#607d8b"
+      predefinedColor: "Blue Grey"
+    fonts:
+      fontSize: 12
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui: {}
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "vim-mode-plus"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontFamily: "Inconsolata-g"
+    fontSize: 10
+  "exception-reporting":
+    userId: "4d56d261-15ad-6e7a-da88-15cc222fa36b"
+  "file-icons": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "c06216f1-4f1b-4c00-b6dd-cf0399c819d8"
+  hyperclick:
+    linuxTriggerKeys: "shiftKey,ctrlKey"
+  "language-babel":
+    autoIndentJSX: true
+  linter:
+    errorPanelHeight: 25
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "tree-view": {}
+  "vim-mode-plus": {}
+  welcome:
+    showOnStartup: false

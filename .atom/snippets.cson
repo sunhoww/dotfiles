@@ -1,0 +1,35 @@
+'.source.js.jsx':
+  'import ...':
+    'prefix': 'im'
+    'body': 'import ${1} from \'${2:./${1}}\';${0}'
+  'import { ... }':
+    'prefix': 'imn'
+    'body': 'import { ${1} } from \'${2:./${1}}\';${0}'
+  'export ...':
+    'prefix': 'ex'
+    'body': 'export default ${1};${0}'
+  'propTypes ...':
+    'prefix': 'rpt'
+    'body': """
+      ${1}.propTypes = {
+        ${2}: ${3},
+      };${0}
+    """
+  'propTypes bool':
+    'prefix': 'rpb'
+    'body': 'React.PropTypes.bool'
+  'propTypes number':
+    'prefix': 'rpn'
+    'body': 'React.PropTypes.number'
+  'propTypes string':
+    'prefix': 'rps'
+    'body': 'React.PropTypes.string'
+  'propTypes func':
+    'prefix': 'rpf'
+    'body': 'React.PropTypes.func'
+  'propTypes shape':
+    'prefix': 'rpo'
+    'body': 'React.PropTypes.shape({${0}})'
+  'propTypes arrayOf':
+    'prefix': 'rpa'
+    'body': 'React.PropTypes.arrayOf(${0})'
