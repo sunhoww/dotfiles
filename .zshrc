@@ -21,7 +21,8 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 
 # Load the theme.
-antigen theme robbyrussell
+#antigen theme robbyrussell
+antigen theme terminalparty-sun
 
 # Tell antigen that you're done.
 antigen apply
