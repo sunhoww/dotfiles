@@ -153,6 +153,7 @@ bindsym $mod+Shift+0 move container to workspace $WS0
 
 # assign clients to specific workspaces
 assign [class="^Vlc$"] $WS5
+assign [class="^Atom$"] $WS2
 assign [class="^google-chrome-beta$"] $WS3
 assign [class="^min$"] $WS3
 assign [class="^Chromium$"] $WS4
