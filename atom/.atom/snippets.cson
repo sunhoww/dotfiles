@@ -33,3 +33,21 @@
   'propTypes arrayOf':
     'prefix': 'rpa'
     'body': 'React.PropTypes.arrayOf(${0})'
+  'functional component':
+    'prefix': 'rcf'
+    'body': """
+      const ${1} = (${2}) => (
+        <div>${3}</div>
+      );${0}
+    """
+  'class component':
+    'prefix': 'rcc'
+    'body': """
+      class ${1} extends React.Component {
+        render() {
+          return (
+            <div>${3}</div>
+          );
+        }
+      }${0}
+    """
