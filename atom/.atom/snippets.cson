@@ -51,3 +51,31 @@
         }
       }${0}
     """
+  'describe':
+    'prefix': 'desc'
+    'body': """
+      describe('${1}', function (${2}) {
+        ${3}
+      });
+    """
+  'it':
+    'prefix': 'it'
+    'body': """
+      it('${1}', function (${2}) {
+        ${3}
+      });
+    """
+  'beforeEach':
+    'prefix': 'bfe'
+    'body': """
+      beforeEach(function (${1}) {
+        ${2}
+      });${0}
+    """
+  'afterEach':
+    'prefix': 'afe'
+    'body': """
+      afterEach(function (${1}) {
+        ${2}
+      });${0}
+    """

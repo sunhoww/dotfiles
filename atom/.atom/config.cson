@@ -32,19 +32,21 @@
   "git-plus":
     general:
       _analyticsUserId: "c06216f1-4f1b-4c00-b6dd-cf0399c819d8"
+  "hit-stats": {}
   hyperclick:
     linuxTriggerKeys: "shiftKey,ctrlKey"
   "language-babel":
     autoIndentJSX: true
   linter:
-    errorPanelHeight: 25
+    errorPanelHeight: 29
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
     leftEditorColor: "red"
     rightEditorColor: "green"
     syncHorizontalScroll: true
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   "vim-mode-plus": {}
   welcome:
     showOnStartup: false
