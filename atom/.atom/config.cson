@@ -37,16 +37,18 @@
     linuxTriggerKeys: "shiftKey,ctrlKey"
   "language-babel":
     autoIndentJSX: true
-  linter:
-    errorPanelHeight: 29
+  linter: {}
+  "linter-ui-default":
+    panelHeight: 58
+    showPanel: true
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
     leftEditorColor: "red"
     rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
     syncHorizontalScroll: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   "vim-mode-plus": {}
   welcome:
     showOnStartup: false
