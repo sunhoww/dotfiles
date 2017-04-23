@@ -27,6 +27,11 @@ antigen theme terminalparty-sun
 # Tell antigen that you're done.
 antigen apply
 
+# Environment variables
+if [ -f /home/sun/.local/share/shell/env.inc ]; then
+  source '/home/sun/.local/share/shell/env.inc'
+fi
+
 # Aliases
 if [ -f /home/sun/.local/share/shell/alias.inc ]; then
   source '/home/sun/.local/share/shell/alias.inc'
