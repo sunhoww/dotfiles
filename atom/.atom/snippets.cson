@@ -17,22 +17,22 @@
     """
   'propTypes bool':
     'prefix': 'rpb'
-    'body': 'React.PropTypes.bool'
+    'body': 'PropTypes.bool'
   'propTypes number':
     'prefix': 'rpn'
-    'body': 'React.PropTypes.number'
+    'body': 'PropTypes.number'
   'propTypes string':
     'prefix': 'rps'
-    'body': 'React.PropTypes.string'
+    'body': 'PropTypes.string'
   'propTypes func':
     'prefix': 'rpf'
-    'body': 'React.PropTypes.func'
+    'body': 'PropTypes.func'
   'propTypes shape':
     'prefix': 'rpo'
-    'body': 'React.PropTypes.shape({${0}})'
+    'body': 'PropTypes.shape({${0}})'
   'propTypes arrayOf':
     'prefix': 'rpa'
-    'body': 'React.PropTypes.arrayOf(${0})'
+    'body': 'PropTypes.arrayOf(${0})'
   'functional component':
     'prefix': 'rcf'
     'body': """
