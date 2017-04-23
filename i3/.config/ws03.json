@@ -1,0 +1,59 @@
+// vim:ts=4:sw=4:et
+{
+  "border": "none",
+  "current_border_width": 0,
+  "percent": 0.7,
+  "swallows": [
+    {
+      "class": "^Termite$",
+      "instance": "^termite$"
+    },
+    {
+      "class": "^URxvt$",
+      "instance": "^urxvt$"
+    }
+  ],
+  "type": "con"
+}
+
+{
+  "border": "none",
+  "floating": "auto_off",
+  "layout": "splith",
+  "percent": 0.3,
+  "type": "con",
+  "nodes": [
+    {
+      "border": "none",
+      "current_border_width": 0,
+      "percent": 0.5,
+      "swallows": [
+        {
+          "class": "^Termite$",
+          "instance": "^termite$"
+        },
+        {
+          "class": "^URxvt$",
+          "instance": "^urxvt$"
+        }
+      ],
+      "type": "con"
+    },
+    {
+      "border": "none",
+      "current_border_width": 0,
+      "percent": 0.5,
+      "swallows": [
+        {
+          "class": "^Termite$",
+          "instance": "^termite$"
+        },
+        {
+          "class": "^URxvt$",
+          "instance": "^urxvt$"
+        }
+      ],
+      "type": "con"
+    }
+  ]
+}

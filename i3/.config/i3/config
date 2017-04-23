@@ -196,9 +196,9 @@ bindsym $mod+r mode "resize"
 
 # Custom bindings
 # - layout for ws
-bindsym $mod+backslash exec ~/.config/i3/load_layout_ws1.sh
+bindsym $mod+backslash exec ./load_ws3.sh
 bindsym $mod+bracketright exec ~/.config/i3/load_layout_ws2.sh
-bindsym $mod+p exec ~/.local/bin/toggle_touchpad.sh
+# bindsym $mod+p exec ~/.local/bin/toggle_touchpad.sh
 
 # Startup programs
 exec --no-startup-id feh --bg-fill ~/Pictures/wallpapers/photo-1444703686981-a3abbc4d4fe3.jpeg
