@@ -201,6 +201,7 @@ bindsym $mod+bracketright exec ~/.config/i3/load_layout_ws2.sh
 # bindsym $mod+p exec ~/.local/bin/toggle_touchpad.sh
 
 # Startup programs
+exec --no-startup-id xbindkeys
 exec --no-startup-id feh --bg-fill ~/Pictures/wallpapers/photo-1444703686981-a3abbc4d4fe3.jpeg
 exec_always --no-startup-id compton
 
