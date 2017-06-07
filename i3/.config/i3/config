@@ -40,7 +40,7 @@ set $text-color          #cfd8dc
 set $inactive-text-color #455a64
 set $urgent-bg-color     #e57373
 set $indicator-color     #f57f17
-set $bar-bg-color        #212121
+set $bar-bg-color        #30343e
 
 # window colors
 #                       border              background         text                 indicator
@@ -50,8 +50,8 @@ client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-co
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $indicator-color
 
 # start a terminal
-#bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec /usr/bin/termite
+bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec /usr/bin/termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -210,7 +210,7 @@ exec_always --no-startup-id compton
 bar {
 	strip_workspace_numbers yes
 	#font pango: font-linux, FontAwesome, 'SauceCodePro Nerd Font:style=Black' 8
-	font pango: font-linux, FontAwesome, Roboto Mono 8
+	font pango: font-linux, FontAwesome, inconsolata-g 8
 	colors {
 		background $bar-bg-color
 		statusline $text-color
