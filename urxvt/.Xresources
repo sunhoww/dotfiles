@@ -10,10 +10,9 @@ URxvt*scrollTtyKeypress: true
 ! Scrollback buffer in secondary screen
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
-URxvt.secondaryWheel: 1
 
 ! Fonts
-URxvt.font: xft:SauceCodePro\ Nerd\ Font:style=Regular:pixelsize=11
+URxvt.font: xft:InconsolataGo\ Nerd\ Font:style=Regular:pixelsize=12
 !URxvt.letterSpace: -1
 
 ! Colors
@@ -55,7 +54,7 @@ URxvt.colorBD: 15
 URxvt.colorUL: 12
 URxvt.internalBorder: 0
 URxvt.externalBorder: 0
-!URxvt.lineSpace: 1
+URxvt.lineSpace: 0
 URxvt.visualBell: True
 URxvt.cursorBlink: True
 URxvt.cursorUnderline: True
@@ -63,12 +62,12 @@ URxvt.pointerBlank: True
 URxvt.pointerBlankDelay: 5
 
 ! Plugins
-URxvt.perl-ext-common: tabbed,fullscreen,resize-font
+URxvt.perl-ext-common: fullscreen,resize-font
 
-URxvt.tabbed.tabbar-fg: 7
-URxvt.tabbed.tabbar-bg: 0
-URxvt.tabbed.tab-fg: 15
-URxvt.tabbed.tab-bg: 8
+!URxvt.tabbed.tabbar-fg: 7
+!URxvt.tabbed.tabbar-bg: 0
+!URxvt.tabbed.tab-fg: 15
+!URxvt.tabbed.tab-bg: 8
 
 URxvt.keysym.F11: perl:fullscreen:switch
 
