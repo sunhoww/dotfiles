@@ -36,20 +36,47 @@
   'functional component':
     'prefix': 'rcf'
     'body': """
-      const ${1} = (${2}) => (
-        <div>${3}</div>
-      );${0}
+      import React from 'react';
+      import PropTypes from 'prop-types';
+      import injectSheet from 'react-jss';
+
+      const styles = {};
+
+      const ${1} = () => (
+        <div>${1}</div>
+      );
+      ${1}.propTypes = {
+        // eslint-disable-next-line
+        classes: PropTypes.object.isRequired,
+      };
+
+      export default injectSheet(styles)(${1});
+      ${0}
     """
   'class component':
     'prefix': 'rcc'
     'body': """
-      class ${1} extends React.Component {
+      import React, { Component } from 'react';
+      import PropTypes from 'prop-types';
+      import injectSheet from 'react-jss';
+
+      const styles = {};
+
+      class ${1} extends Component {
+        state = {}
         render() {
           return (
-            <div>${3}</div>
+            <div>${1}</div>
           );
         }
-      }${0}
+      }
+      ${1}.propTypes = {
+        // eslint-disable-next-line
+        classes: PropTypes.object.isRequired,
+      };
+
+      export default injectSheet(styles)(${1});
+      ${0}
     """
   'describe':
     'prefix': 'desc'
