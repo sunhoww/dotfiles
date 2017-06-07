@@ -18,7 +18,7 @@
         },
         {
           "class": "^URxvt$",
-          "instance": "^urxvt$"
+          "instance": "^main$"
         }
       ],
       "type": "con"
