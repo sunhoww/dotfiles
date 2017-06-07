@@ -4,13 +4,13 @@
       abaseColor: "#607d8b"
       predefinedColor: "Blue Grey"
     fonts:
-      fontSize: 12
+      fontSize: 14
     tabs:
       compactTabs: true
       tintedTabBar: true
     treeView:
       blendTabs: true
-      compactList: true
+      compactList: false
     ui: {}
   core:
     autoHideMenuBar: true
@@ -20,7 +20,7 @@
     packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
     themes: [
-      "atom-material-ui"
+      "one-dark-ui"
       "atom-material-syntax"
     ]
   editor:
@@ -39,8 +39,11 @@
     autoIndentJSX: true
   linter: {}
   "linter-ui-default":
-    panelHeight: 58
-    showPanel: true
+    panelHeight: 41
+  "one-dark-ui":
+    fontSize: 12
+  "one-light-ui":
+    fontSize: 12
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
@@ -48,8 +51,7 @@
     rightEditorColor: "green"
     scrollSyncType: "Vertical + Horizontal"
     syncHorizontalScroll: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   "vim-mode-plus": {}
   welcome:
     showOnStartup: false
