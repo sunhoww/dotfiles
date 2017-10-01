@@ -12,10 +12,13 @@
       blendTabs: true
       compactList: false
     ui: {}
+  "atom-terminal":
+    app: "/usr/bin/urxvt"
   core:
     autoHideMenuBar: true
     disabledPackages: [
       "vim-mode-plus"
+      "terminal-plus"
     ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
@@ -26,6 +29,8 @@
   editor:
     fontFamily: "Inconsolata-g"
     fontSize: 10
+    showIndentGuide: true
+    showInvisibles: true
   "exception-reporting":
     userId: "4d56d261-15ad-6e7a-da88-15cc222fa36b"
   "file-icons": {}
@@ -38,8 +43,11 @@
   "language-babel":
     autoIndentJSX: true
   linter: {}
+  "linter-flow":
+    executablePath: "./node_modules/.bin/flow"
   "linter-ui-default":
-    panelHeight: 41
+    panelHeight: 98
+    showPanel: true
   "one-dark-ui":
     fontSize: 12
   "one-light-ui":
@@ -51,6 +59,11 @@
     rightEditorColor: "green"
     scrollSyncType: "Vertical + Horizontal"
     syncHorizontalScroll: true
+  "terminal-plus":
+    core:
+      workingDirectory: "Active File"
+    style:
+      theme: "pro"
   "tree-view": {}
   "vim-mode-plus": {}
   welcome:
