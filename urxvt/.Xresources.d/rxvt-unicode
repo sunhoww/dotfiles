@@ -12,7 +12,8 @@ URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 
 ! Fonts
-URxvt.font: xft:InconsolataGo\ Nerd\ Font:style=Regular:pixelsize=12
+URxvt.font: xft:InconsolataGo\ Nerd\ Font:style=Regular:pixelsize=12,\
+xft:Noto\ Color\ Emoji:style=Regular:pixelsize=12
 !URxvt.letterSpace: -1
 
 ! Colors
