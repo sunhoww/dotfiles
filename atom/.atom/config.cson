@@ -19,6 +19,8 @@
     disabledPackages: [
       "vim-mode-plus"
       "terminal-plus"
+      "git-plus"
+      "atom-terminal"
     ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
@@ -28,7 +30,7 @@
     ]
   editor:
     fontFamily: "Inconsolata-g"
-    fontSize: 10
+    fontSize: 11
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
@@ -52,6 +54,14 @@
     fontSize: 12
   "one-light-ui":
     fontSize: 12
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
+    prettierOptions:
+      singleQuote: true
+      trailingComma: "es5"
+    useEslint: true
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
@@ -64,7 +74,8 @@
       workingDirectory: "Active File"
     style:
       theme: "pro"
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   "vim-mode-plus": {}
   welcome:
     showOnStartup: false
