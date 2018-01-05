@@ -256,7 +256,7 @@ exec_always --no-startup-id compton
 bar {
 	strip_workspace_numbers yes
 	#font pango: font-linux, FontAwesome, 'SauceCodePro Nerd Font:style=Black' 8
-	font pango: font-linux, FontAwesome, inconsolata-g 8
+	font pango: font-linux, InconsolataGo Nerd Font 8
 	colors {
 		background $bar-bg-color
 		statusline $text-color
