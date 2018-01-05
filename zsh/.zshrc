@@ -51,3 +51,10 @@ fi
 if [ -f /home/sun/.local/opt/google-cloud-sdk/completion.zsh.inc ]; then
   source '/home/sun/.local/opt/google-cloud-sdk/completion.zsh.inc'
 fi
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /home/sun/.node_modules/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/sun/.node_modules/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /home/sun/.node_modules/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /home/sun/.node_modules/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
