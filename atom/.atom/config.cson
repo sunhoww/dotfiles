@@ -1,4 +1,6 @@
 "*":
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui": {}
   "atom-material-ui":
     colors:
       abaseColor: "#607d8b"
@@ -21,6 +23,9 @@
       "terminal-plus"
       "git-plus"
       "atom-terminal"
+      "linter-flow"
+      "linter"
+      "js-hyperclick"
     ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
@@ -48,7 +53,7 @@
   "linter-flow":
     executablePath: "./node_modules/.bin/flow"
   "linter-ui-default":
-    panelHeight: 98
+    panelHeight: 385
     showPanel: true
   "one-dark-ui":
     fontSize: 12
