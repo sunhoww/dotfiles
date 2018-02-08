@@ -65,10 +65,10 @@ URxvt.pointerBlankDelay: 5
 ! Plugins
 URxvt.perl-ext-common: fullscreen,resize-font
 
-!URxvt.tabbed.tabbar-fg: 7
-!URxvt.tabbed.tabbar-bg: 0
-!URxvt.tabbed.tab-fg: 15
-!URxvt.tabbed.tab-bg: 8
+URxvt.tabbed.tabbar-bg: 8 
+URxvt.tabbed.tabbar-fg: 7
+URxvt.tabbed.tab-bg: 7
+URxvt.tabbed.tab-fg: 8
 
 URxvt.keysym.F11: perl:fullscreen:switch
 

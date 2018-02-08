@@ -51,6 +51,8 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
+# start alternate terminal
+bindsym $mod+Shift+Return exec /usr/bin/urxvt --perl-ext-common tabbed
 #bindsym $mod+Return exec /usr/bin/termite
 
 # kill focused window
