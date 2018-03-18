@@ -1,6 +1,7 @@
 "*":
   "atom-ide-ui":
     "atom-ide-diagnostics-ui": {}
+    use: {}
   "atom-material-ui":
     colors:
       abaseColor: "#607d8b"
@@ -53,8 +54,9 @@
   "linter-flow":
     executablePath: "./node_modules/.bin/flow"
   "linter-ui-default":
-    panelHeight: 385
+    panelHeight: 280
     showPanel: true
+  "markdown-preview": {}
   "one-dark-ui":
     fontSize: 12
   "one-light-ui":
