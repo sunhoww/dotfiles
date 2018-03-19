@@ -12,9 +12,10 @@ URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 
 ! Fonts
-URxvt.font: xft:InconsolataGo\ Nerd\ Font:style=Regular:pixelsize=12,\
-xft:Noto\ Color\ Emoji:style=Regular:pixelsize=12
-!URxvt.letterSpace: -1
+URxvt.font:     xft:Iosevka\ Term:style=Light:pixelsize=12
+URxvt.boldFont: xft:Iosevka\ Term:style=Medium:pixelsize=12
+URxvt.italicFont: xft:Iosevka\ Term:style=Italic:pixelsize=12
+URxvt.boldItalicFont: xft:Iosevka\ Term:style=Medium\ Italic:pixelsize=12
 
 ! Colors
 URxvt.background: #263238
@@ -65,7 +66,7 @@ URxvt.pointerBlankDelay: 5
 ! Plugins
 URxvt.perl-ext-common: fullscreen,resize-font
 
-URxvt.tabbed.tabbar-bg: 8 
+URxvt.tabbed.tabbar-bg: 8
 URxvt.tabbed.tabbar-fg: 7
 URxvt.tabbed.tab-bg: 7
 URxvt.tabbed.tab-fg: 8
