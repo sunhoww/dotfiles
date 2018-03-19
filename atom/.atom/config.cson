@@ -35,8 +35,8 @@
       "atom-material-syntax"
     ]
   editor:
-    fontFamily: "Inconsolata-g"
-    fontSize: 11
+    fontFamily: "Iosevka Light"
+    fontSize: 13
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
