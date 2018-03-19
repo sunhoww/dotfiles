@@ -1,79 +1,80 @@
 ! do not scroll with output
-URxvt*scrollTtyOutput: false
+URxvt*scrollTtyOutput:    false
 
 ! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
-URxvt*scrollWithBuffer: true
+URxvt*scrollWithBuffer:   true
 
 ! scroll back to the bottom on keypress
-URxvt*scrollTtyKeypress: true
+URxvt*scrollTtyKeypress:  true
 
 ! Scrollback buffer in secondary screen
-URxvt.secondaryScreen: 1
-URxvt.secondaryScroll: 0
+URxvt.secondaryScreen:    1
+URxvt.secondaryScroll:    0
 
 ! Fonts
-URxvt.font:     xft:Iosevka\ Term:style=Light:pixelsize=12
-URxvt.boldFont: xft:Iosevka\ Term:style=Medium:pixelsize=12
-URxvt.italicFont: xft:Iosevka\ Term:style=Italic:pixelsize=12
-URxvt.boldItalicFont: xft:Iosevka\ Term:style=Medium\ Italic:pixelsize=12
+URxvt.font:             xft:Iosevka\ Term:style=Light:pixelsize=12, \
+                        xft:Noto\ Color\ Emoji:style=Regular:pixelsize=12
+URxvt.boldFont:         xft:Iosevka\ Term:style=Medium:pixelsize=12
+URxvt.italicFont:       xft:Iosevka\ Term:style=Italic:pixelsize=12
+URxvt.boldItalicFont:   xft:Iosevka\ Term:style=Medium\ Italic:pixelsize=12
 
 ! Colors
 URxvt.background: #263238
 URxvt.foreground: #cfd8dc
 ! Black + DarkGrey
-URxvt*color0: #212121
-URxvt*color8: #455a64
+URxvt*color0:     #212121
+URxvt*color8:     #455a64
 ! DarkRed + Red
-URxvt*color1: #b71c1c
-URxvt*color9: #f44336
+URxvt*color1:     #b71c1c
+URxvt*color9:     #f44336
 ! DarkGreen + Green
-URxvt*color2: #2e7d32
-URxvt*color10: #4caf50
+URxvt*color2:     #2e7d32
+URxvt*color10:    #4caf50
 ! DarkYellow + Yellow
-URxvt*color3: #f57f17
-URxvt*color11: #ffeb3b
+URxvt*color3:     #f57f17
+URxvt*color11:    #ffeb3b
 ! DarkBlue + Blue
-URxvt*color4: #0d47a1
-URxvt*color12: #42a5f5
+URxvt*color4:     #0d47a1
+URxvt*color12:    #42a5f5
 ! DarkMagenta + Magenta
-URxvt*color5: #aa00ff
-URxvt*color13: #f06292
+URxvt*color5:     #aa00ff
+URxvt*color13:    #f06292
 ! DarkCyan + Cyan (both not tango)
-URxvt*color6: #006064
-URxvt*color14: #00bcd4
+URxvt*color6:     #006064
+URxvt*color14:    #00bcd4
 ! LightGrey + White
-URxvt*color7: #b0bec5
-URxvt*color15: #fafafa
+URxvt*color7:     #b0bec5
+URxvt*color15:    #fafafa
 
 ! Others
-URxvt.scrollBar: False
-URxvt.fading: 5
-URxvt.fadeColor: 7
-URxvt.cursorColor: 7
-URxvt.cursorColor2: 8
-URxvt.colorIT: 10
-URxvt.colorBD: 15
-URxvt.colorUL: 12
-URxvt.internalBorder: 0
-URxvt.externalBorder: 0
-URxvt.lineSpace: 0
-URxvt.visualBell: True
-URxvt.cursorBlink: True
-URxvt.cursorUnderline: True
-URxvt.pointerBlank: True
-URxvt.pointerBlankDelay: 5
+URxvt.scrollBar:            False
+URxvt.fading:               5
+URxvt.fadeColor:            7
+URxvt.cursorColor:          7
+URxvt.cursorColor2:         8
+URxvt.colorIT:              10
+URxvt.colorBD:              15
+URxvt.colorUL:              12
+URxvt.internalBorder:       0
+URxvt.externalBorder:       0
+URxvt.lineSpace:            0
+URxvt.visualBell:           True
+URxvt.cursorBlink:          True
+URxvt.cursorUnderline:      True
+URxvt.pointerBlank:         True
+URxvt.pointerBlankDelay:    5
 
 ! Plugins
 URxvt.perl-ext-common: fullscreen,resize-font
 
-URxvt.tabbed.tabbar-bg: 8
-URxvt.tabbed.tabbar-fg: 7
-URxvt.tabbed.tab-bg: 7
-URxvt.tabbed.tab-fg: 8
+URxvt.tabbed.tabbar-bg:     8
+URxvt.tabbed.tabbar-fg:     7
+URxvt.tabbed.tab-bg:        7
+URxvt.tabbed.tab-fg:        8
 
 URxvt.keysym.F11: perl:fullscreen:switch
 
-URxvt.resize-font.smaller: C-Down
-URxvt.resize-font.bigger: C-Up
-URxvt.iso14755: false
-URxvt.iso14755_52: false
+URxvt.resize-font.smaller:  C-Down
+URxvt.resize-font.bigger:   C-Up
+URxvt.iso14755:             false
+URxvt.iso14755_52:          false
