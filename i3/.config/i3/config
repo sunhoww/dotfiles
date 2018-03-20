@@ -39,8 +39,10 @@ client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-co
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $indicator-color
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+# bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec /usr/bin/termite
 # start alternate terminal
+bindsym $mod+Control+Return exec /usr/bin/urxvt
 bindsym $mod+Shift+Return exec /usr/bin/urxvt --perl-ext-common tabbed
 
 # kill focused window

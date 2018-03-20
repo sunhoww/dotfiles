@@ -1,7 +1,5 @@
 [options]
-font = Source Code Pro 8
-font = Roboto Mono 8
-font = DejaVu Sans Mono 8
+font = Iosevka Term Light 9
 mouse_autohide = true
 cursor_shape = underline
 
@@ -24,4 +22,3 @@ color6     = #006064
 color14    = #00bcd4
 color7     = #b0bec5
 color15    = #fafafa
-
