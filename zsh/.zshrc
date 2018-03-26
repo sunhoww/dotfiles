@@ -21,8 +21,8 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 
 # Load the theme.
-#antigen theme robbyrussell
-antigen theme terminalparty-sun
+antigen theme $HOME/.dotfiles/themes tp-alt.zsh-theme --no-local-clone
+antigen theme tp-alt
 
 # Tell antigen that you're done.
 antigen apply
