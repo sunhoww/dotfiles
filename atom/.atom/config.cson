@@ -1,5 +1,25 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "7c261ce3-6cd2-4c8d-8448-f6c5da663968"
+    js:
+      beautify_on_save: true
+      brace_style: "collapse-preserve-inline"
+      default_beautifier: "Prettier"
+      end_with_newline: true
+      object_curly_spacing: true
+      preserve_newlines: false
+      space_before_conditional: false
+      wrap_line_length: 80
+    json:
+      beautify_on_save: true
+      brace_style: "collapse-preserve-inline"
+      end_with_newline: true
+      object_curly_spacing: true
+      preserve_newlines: false
+      space_before_conditional: false
   "atom-ide-ui":
+    "atom-ide-code-format": {}
     "atom-ide-diagnostics-ui": {}
     use: {}
   "atom-material-ui":
@@ -27,6 +47,7 @@
       "linter-flow"
       "linter"
       "js-hyperclick"
+      "atom-beautify"
     ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
@@ -36,7 +57,7 @@
     ]
   editor:
     fontFamily: "Iosevka Light"
-    fontSize: 13
+    fontSize: 12
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
@@ -48,6 +69,8 @@
   "hit-stats": {}
   hyperclick:
     linuxTriggerKeys: "shiftKey,ctrlKey"
+  "ide-flowtype":
+    tryFlowBin: true
   "language-babel":
     autoIndentJSX: true
   linter: {}
