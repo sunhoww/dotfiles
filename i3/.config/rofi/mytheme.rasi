@@ -1,0 +1,7 @@
+configuration {
+  padding: 10;
+  font: "Noto Sans 14";
+  separator-style: "none";
+  show-icons: true;
+  hide-scrollbar: true;
+}
