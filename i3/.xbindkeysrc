@@ -1,7 +1,7 @@
-"amixer set Master 5%+"
+"amixer set Master 2%+"
     m:0x10 + c:123
     Mod2 + XF86AudioRaiseVolume
-"amixer set Master 5%-"
+"amixer set Master 2%-"
     m:0x10 + c:122
     Mod2 + XF86AudioLowerVolume
 "amixer set Master toggle"
@@ -17,5 +17,3 @@
 "cmus-remote -n"
     m:0x10 + c:171
     Mod2 + XF86AudioNext
-
-
