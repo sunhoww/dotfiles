@@ -1,5 +1,12 @@
-mafredri/zsh-async
-marszall87/lambda-pure
-zsh-users/zsh-syntax-highlighting
+# main
+robbyrussell/oh-my-zsh
+
+# others
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
+mafredri/zsh-async
+
+
+# last
+sindresorhus/pure
+zsh-users/zsh-syntax-highlighting

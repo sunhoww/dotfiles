@@ -19,4 +19,3 @@ function ve () {
     source $HOME/.local/lib/pyve/$1/bin/activate
   fi
 }
-
