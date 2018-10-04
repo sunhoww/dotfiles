@@ -2,3 +2,4 @@ mafredri/zsh-async
 marszall87/lambda-pure
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
