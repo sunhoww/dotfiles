@@ -1,7 +1,7 @@
 [options]
 font = Iosevka Term Light 9
 mouse_autohide = true
-cursor_shape = underline
+cursor_shape = ibeam
 
 [colors]
 background = #263238
