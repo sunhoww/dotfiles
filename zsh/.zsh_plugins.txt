@@ -8,5 +8,5 @@ mafredri/zsh-async
 
 
 # last
-sindresorhus/pure
+marszall87/lambda-pure
 zsh-users/zsh-syntax-highlighting
