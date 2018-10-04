@@ -62,7 +62,9 @@
     showInvisibles: true
   "exception-reporting":
     userId: "4d56d261-15ad-6e7a-da88-15cc222fa36b"
-  "file-icons": {}
+  "file-icons":
+    coloured: false
+    onChanges: true
   "git-plus":
     general:
       _analyticsUserId: "c06216f1-4f1b-4c00-b6dd-cf0399c819d8"
