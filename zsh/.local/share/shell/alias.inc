@@ -19,3 +19,6 @@ function ve () {
     source $HOME/.local/lib/pyve/$1/bin/activate
   fi
 }
+
+alias gs="git status"
+alias gls="git log --oneline --decorate=short"
