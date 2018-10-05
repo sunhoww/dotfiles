@@ -62,7 +62,7 @@ font-4 = "Font Awesome 5 Brands:style=Regular:pixelsize=9;1"
 
 modules-left = i3 xwindow
 modules-center =
-modules-right = fsroot fshome fsmain cpu memory netwired netwireless temperature date
+modules-right = fsroot fshome fsmain cpu memory netwired netwireless temperature battery date
 
 tray-position = right
 tray-padding = 1
@@ -232,6 +232,15 @@ format-warn-underline = ${self.format-underline}
 label = %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
+
+
+[module/battery]
+type = custom/script
+exec = $HOME/.config/polybar/get_batt.sh
+interval = 10
+format-prefix = " "
+format-underline = ${colors.primary}
+format-prefix-foreground = ${colors.foreground-alt}
 
 
 [module/date]
