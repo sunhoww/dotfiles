@@ -56,13 +56,13 @@ module-margin-right = 2
 
 font-0 = "Iosevka Term:pixelsize=9;1"
 font-1 = fixed:pixelsize=10;1
-font-2 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = "Iosevka Term:pixelsize=8;1"
 font-3 = "Material Icons:style=Regular:pixelsize=11;1"
 font-4 = "Font Awesome 5 Brands:style=Regular:pixelsize=9;1"
 
 modules-left = i3 xwindow
 modules-center =
-modules-right = fsroot fshome cpu memory netwired netwireless temperature date
+modules-right = fsroot fshome fsmain cpu memory netwired netwireless temperature date
 
 tray-position = right
 tray-padding = 1
@@ -83,23 +83,8 @@ cursor-scroll = ns-resize
 type = internal/xwindow
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-label = %title:0:60:...%
-
-[module/xkeyboard]
-type = internal/xkeyboard
-blacklist-0 = num lock
-
-format-prefix = "⌘ "
-format-prefix-foreground = ${colors.foreground-alt}
-format-prefix-underline = ${colors.secondary}
-
-label-layout = %layout%
-label-layout-underline = ${colors.secondary}
-
-label-indicator-padding = 2
-label-indicator-margin = 1
-label-indicator-background = ${colors.secondary}
-label-indicator-underline = ${colors.secondary}
+label = %title:0:90:...%
+label-font = 3
 
 [module/fsroot]
 type = internal/fs
@@ -186,7 +171,7 @@ label-song-ellipsis = true
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #f90000
 label = %percentage%%
@@ -194,7 +179,7 @@ label = %percentage%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #4bffdc
 label = %percentage_used%% %mb_free%
@@ -207,7 +192,7 @@ interval = 3.0
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 format-connected-underline = #9f78e1
-label-connected = %downspeed% | %upspeed%
+label-connected =  %downspeed%  %upspeed%
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -223,7 +208,7 @@ interval = 3.0
 format-connected-underline = #55aa55
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %downspeed% | %upspeed%
+label-connected =  %downspeed%  %upspeed%
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -280,7 +265,7 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
 
-format-prefix = "T "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #f50a4d
 format-warn-underline = ${self.format-underline}
