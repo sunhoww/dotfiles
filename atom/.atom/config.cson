@@ -51,13 +51,10 @@
     ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
-    themes: [
-      "one-dark-ui"
-      "atom-material-syntax"
-    ]
   editor:
     fontFamily: "Iosevka Light"
     fontSize: 12
+    invisibles: {}
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
@@ -68,7 +65,8 @@
   "git-plus":
     general:
       _analyticsUserId: "c06216f1-4f1b-4c00-b6dd-cf0399c819d8"
-  "hit-stats": {}
+  "hit-stats":
+    path: "$HOME/.atom-hit-stats.csv"
   hyperclick:
     linuxTriggerKeys: "shiftKey,ctrlKey"
   "ide-flowtype":
@@ -111,3 +109,4 @@
   "vim-mode-plus": {}
   welcome:
     showOnStartup: false
+  wordcount: {}
