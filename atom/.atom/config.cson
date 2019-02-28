@@ -1,110 +1,81 @@
 "*":
-  "atom-beautify":
-    general:
-      _analyticsUserId: "7c261ce3-6cd2-4c8d-8448-f6c5da663968"
-    js:
-      beautify_on_save: true
-      brace_style: "collapse-preserve-inline"
-      default_beautifier: "Prettier"
-      end_with_newline: true
-      object_curly_spacing: true
-      preserve_newlines: false
-      space_before_conditional: false
-      wrap_line_length: 80
-    json:
-      beautify_on_save: true
-      brace_style: "collapse-preserve-inline"
-      end_with_newline: true
-      object_curly_spacing: true
-      preserve_newlines: false
-      space_before_conditional: false
-  "atom-ide-ui":
-    "atom-ide-code-format": {}
-    "atom-ide-diagnostics-ui": {}
-    use: {}
-  "atom-material-ui":
-    colors:
-      abaseColor: "#607d8b"
-      predefinedColor: "Blue Grey"
-    fonts:
-      fontSize: 14
-    tabs:
-      compactTabs: true
-      tintedTabBar: true
-    treeView:
-      blendTabs: true
-      compactList: false
-    ui: {}
-  "atom-terminal":
-    app: "/usr/bin/urxvt"
   core:
     autoHideMenuBar: true
+    automaticallyUpdate: false
     disabledPackages: [
-      "vim-mode-plus"
-      "terminal-plus"
-      "git-plus"
-      "atom-terminal"
-      "linter-flow"
-      "js-hyperclick"
-      "atom-beautify"
       "linter"
     ]
-    packagesWithKeymapsDisabled: []
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
+    ]
     telemetryConsent: "limited"
   editor:
     fontFamily: "Iosevka Light"
     fontSize: 12
-    invisibles: {}
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
-    userId: "4d56d261-15ad-6e7a-da88-15cc222fa36b"
+    userId: "4ff3bdfb-77c7-41f8-9575-e0a385fccd65"
   "file-icons":
     onChanges: true
-  "git-plus":
-    general:
-      _analyticsUserId: "c06216f1-4f1b-4c00-b6dd-cf0399c819d8"
-  "hit-stats": {}
-  hyperclick:
-    linuxTriggerKeys: "shiftKey,ctrlKey"
   "ide-flowtype":
     tryFlowBin: true
-  "language-babel":
-    autoIndentJSX: true
-  linter: {}
-  "linter-flow":
-    executablePath: "./node_modules/.bin/flow"
-  "linter-ui-default":
-    panelHeight: 280
-    showPanel: true
-  "markdown-preview": {}
-  "one-dark-ui":
-    fontSize: 12
-  "one-light-ui":
-    fontSize: 12
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        black: "#3b4252"
+        blue: "#81a1c1"
+        cyan: "#88c0d0"
+        green: "#a3be8c"
+        magenta: "#b48ead"
+        red: "#bf616a"
+        white: "#e5e9f0"
+        yellow: "#ebcb8b"
+      zBright:
+        brightBlack: "#4c566a"
+        brightBlue: "#81a1c1"
+        brightCyan: "#8fbcbb"
+        brightGreen: "#a3be8c"
+        brightMagenta: "#b48ead"
+        brightRed: "#bf616a"
+        brightWhite: "#eceff4"
+        brightYellow: "#ebcb8b"
+    iconColors:
+      blue: "#81a1c1"
+      cyan: "#88c0d0"
+      green: "#a3be8c"
+      magenta: "#b48ead"
+      orange: "#ebcb8b"
+      pink: "#bf616a"
+      purple: "#b48ead"
+      red: "#bf616a"
+      yellow: "#ebcb8b"
+    style:
+      fontFamily: "Iosevka Term Light"
+      fontSize: "12"
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
+      isDisabledIfNoConfigFile: true
       showInStatusBar: true
-    prettierOptions:
-      singleQuote: true
-      trailingComma: "es5"
-    useEslint: true
-  "split-diff":
-    diffWords: true
-    ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
-    scrollSyncType: "Vertical + Horizontal"
-    syncHorizontalScroll: true
-  "terminal-plus":
-    core:
-      workingDirectory: "Active File"
-    style:
-      theme: "pro"
+  "tool-bar":
+    visible: false
   "tree-view":
+    hideIgnoredNames: true
     hideVcsIgnoredFiles: true
-  "vim-mode-plus": {}
   welcome:
     showOnStartup: false
-  wordcount: {}
