@@ -167,6 +167,7 @@ bindsym $mod+Shift+0 move container to workspace $ws0
 
 workspace $ws1 gaps inner 3
 workspace $ws3 gaps inner 3
+workspace $ws0 gaps inner 30
 
 assign [class="Atom"] $ws2
 assign [class="Chromium"] $ws4
@@ -212,6 +213,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bindsym Print exec scrot '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/screenshots/'
+bindsym $mod+F12 exec gnome-calculator
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id xbindkeys
