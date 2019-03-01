@@ -22,6 +22,7 @@
   editor:
     fontFamily: "Iosevka Light"
     fontSize: 12
+    preferredLineLength: 88
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
@@ -30,6 +31,11 @@
     onChanges: true
   "ide-flowtype":
     tryFlowBin: true
+  "ide-python":
+    pylsPlugins:
+      pycodestyle:
+        maxLineLength: 88
+    python: "/usr/bin/python"
   minimap:
     plugins:
       "git-diff": true
@@ -72,6 +78,9 @@
       enabled: true
       isDisabledIfNoConfigFile: true
       showInStatusBar: true
+  "python-black":
+    binPath: "/home/sun/.local/bin/black"
+    showErrors: "flash"
   "tool-bar":
     visible: false
   "tree-view":
