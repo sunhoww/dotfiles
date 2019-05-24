@@ -36,6 +36,8 @@
       pycodestyle:
         maxLineLength: 88
     python: "/usr/bin/python"
+  "linter-ui-default":
+    panelHeight: 238
   minimap:
     plugins:
       "git-diff": true
@@ -86,5 +88,7 @@
   "tree-view":
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
   welcome:
     showOnStartup: false
