@@ -1,8 +1,12 @@
 "*":
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui": {}
   core:
     autoHideMenuBar: true
     automaticallyUpdate: false
     disabledPackages: [
+      "platformio-ide"
+      "platformio-ide-debugger"
       "linter"
     ]
     ignoredNames: [
@@ -35,9 +39,13 @@
     pylsPlugins:
       pycodestyle:
         maxLineLength: 88
+      pydocstyle:
+        convention: "pep257"
+      pylint: {}
     python: "/usr/bin/python"
   "linter-ui-default":
     panelHeight: 238
+    showPanel: true
   minimap:
     plugins:
       "git-diff": true
