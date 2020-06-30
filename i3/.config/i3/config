@@ -165,13 +165,27 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws0
 
+workspace $ws1 output HDMI2
+workspace $ws2 output HDMI2
+workspace $ws3 output HDMI2
+workspace $ws4 output HDMI2
+workspace $ws5 output HDMI2
+workspace $ws6 output VGA1
+workspace $ws7 output VGA1
+workspace $ws8 output VGA1
+workspace $ws9 output VGA1
+workspace $ws0 output VGA1
+
 workspace $ws1 gaps inner 3
 workspace $ws3 gaps inner 3
 workspace $ws0 gaps inner 30
 
 assign [class="Atom"] $ws2
+assign [class="code-oss"] $ws2
+assign [class="Code"] $ws2
 assign [class="Chromium"] $ws4
 assign [class="vlc"] $ws5
+assign [class="Genymotion"] $ws9
 
 for_window [class="XCalc"] floating enable
 for_window [class="Gnome-calculator"] floating enable
