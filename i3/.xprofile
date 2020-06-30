@@ -2,3 +2,4 @@ export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CACHE_HOME=$HOME/.cache
 export XDG_DATA_HOME=$HOME/.local/share
 export ELECTRON_TRASH=trash-cli
+export PUB_CACHE=/opt/flutter/.pub-cache
