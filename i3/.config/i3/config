@@ -11,9 +11,45 @@
 
 set $mod Mod4
 
+set $red         #F44336
+set $pink        #E91E63
+set $purple      #9C27B0
+set $deeppurple  #673AB7
+set $indigo      #3F51B5
+set $blue500     #2196F3
+set $blue800     #1565C0
+set $blue900     #1A237E
+set $lightblue   #03A9F4
+set $cyan        #00BCD4
+set $teal        #009688
+set $green       #4CAF50
+set $lightgreen  #8BC34A
+set $lime        #CDDC39
+set $yellow      #FFEB3B
+set $amber       #FFC107
+set $orange      #FF9800
+set $deeporange  #FF5722
+set $brown       #795548
+set $gray        #9E9E9E
+set $bluegray50  #eceff1
+set $bluegray100 #cfd8dc
+set $bluegray200 #b0bec5
+set $bluegray500 #607d8b
+set $bluegray800 #37474f
+set $bluegray900 #263238
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font pango:Iosevka 8
+
+# colors
+# class                 border       backgr.      text         indicator    child_border
+client.focused          $bluegray900 $bluegray900 $bluegray50  $bluegray50  $blue
+client.focused_inactive $bluegray500 $bluegray500 $bluegray50  $bluegray50  $bluegray500
+client.unfocused        $bluegray800 $bluegray800 $bluegray50  $bluegray50  $bluegray800
+client.urgent           $red         $red         $bluegray900 $bluegray900 $red
+client.placeholder      $bluegray50  $bluegray900 $bluegray50  $bluegray50  $bluegray900
+client.background       $bluegray900
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
