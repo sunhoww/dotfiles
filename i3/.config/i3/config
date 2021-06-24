@@ -229,10 +229,9 @@ assign [class="Chromium"] $ws4
 assign [class="vlc"] $ws5
 assign [class="Genymotion"] $ws9
 
-for_window [class="XCalc"] floating enable
-for_window [class="Gnome-calculator"] floating enable
+for_window [class="SpeedCrunch"] floating enable
 for_window [window_role="^pop-up$"] floating enable
-for_window [window_role="^pop-up$"] border pixel 1
+for_window [window_role="^task-dialog$"] floating enable
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -268,10 +267,15 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-bindsym Print exec scrot '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/screenshots/'
-bindsym $mod+F12 exec gnome-calculator
+bindsym XF86Search exec i3-sensible-terminal ranger
+bindsym Menu exec speedcrunch
+bindsym Print exec "scrot '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/screenshots/'"
+
+# Use pactl to adjust volume in PulseAudio.
+bindsym XF86AudioRaiseVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ +1000"
+bindsym XF86AudioLowerVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ -1000"
+bindsym XF86AudioMute exec --no-startup-id "pactl set-sink-mute @DEFAULT_SINK@ toggle"
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id xbindkeys
 exec_always --no-startup-id feh --randomize --bg-fill ~/Pictures/wallpapers/*
-exec_always --no-startup-id compton -CG
+exec --no-startup-id pasystray
