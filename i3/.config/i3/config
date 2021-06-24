@@ -54,10 +54,16 @@ client.background       $bluegray900
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# borders
 default_border none
 default_floating_border pixel 2
 hide_edge_borders both
 smart_gaps on
+for_window [floating] border pixel 1
+
+bindsym $mod+t border normal 1
+bindsym $mod+y border pixel 2
+bindsym $mod+u border none
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
