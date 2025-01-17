@@ -9,6 +9,8 @@ AddPackage linux-firmware # Firmware files for Linux
 AddPackage snap-pac # Pacman hooks that use snapper to create pre/post btrfs snapshots like openSUSE's YaST
 AddPackage snapper # A tool for managing BTRFS and LVM snapshots. It can create, diff and restore snapshots and provides timelined auto-snapping.
 AddPackage vim # Vi Improved, a highly configurable, improved version of the vi text editor
+AddPackage man-db # A utility for reading man pages
+AddPackage man-pages # Linux man pages
 
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 AddPackage --foreign paru # Feature packed AUR helper
