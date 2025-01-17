@@ -22,11 +22,14 @@ CreateLink /etc/localtime /usr/share/zoneinfo/Asia/Kolkata
 CopyFile /etc/sudoers.d/wheel 440
 
 # package management
-AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+AddPackage reflector      # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+AddPackage pacman-contrib # Contributed scripts and tools for pacman systems
 
-AddPackage --foreign paru       # Feature packed AUR helper
-AddPackage --foreign paru-debug #
+AddPackage --foreign paru          # Feature packed AUR helper
+AddPackage --foreign paru-debug    #
+AddPackage --foreign paccache-hook # A configurable hook to cleanup the pacman package cache using paccache
 
+CopyFile /etc/pacman.conf
 CreateLink /etc/systemd/system/multi-user.target.wants/reflector.service /usr/lib/systemd/system/reflector.service
 CopyFile /etc/xdg/reflector/reflector.conf
 
