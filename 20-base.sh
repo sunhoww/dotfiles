@@ -41,6 +41,7 @@ CopyFile /etc/conf.d/snapper
 CopyFile /etc/snapper/configs/root 640
 
 # network
+CreateLink /etc/resolv.conf ../run/systemd/resolve/stub-resolv.conf
 CopyFile /etc/systemd/network/20-ethernet.network
 CopyFile /etc/systemd/resolved.conf.d/dns_servers.conf
 CopyFile /etc/systemd/resolved.conf.d/mdns.conf
