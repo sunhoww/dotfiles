@@ -1,0 +1,20 @@
+[Unit]
+Description=Network UPS Tools (Overridden) - power device monitor and shutdown controller
+After=local-fs.target network-online.target
+Requires=network-online.target
+PartOf=nut.target
+
+[Service]
+EnvironmentFile=-/etc/nut/nut.conf
+SyslogIdentifier=%N
+ExecStartPre=-/usr/bin/systemd-tmpfiles --create /usr/lib/tmpfiles.d/nut-common-tmpfiles.conf
+ExecStart=/usr/bin/upsmon -F
+ExecReload=/usr/bin/upsmon -c reload
+PIDFile=/run/nut/upsmon.pid
+Restart=on-failure
+Type=notify
+NotifyAccess=all
+
+[Install]
+WantedBy=nut.target
+Alias=upsmon.service

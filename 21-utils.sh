@@ -25,3 +25,16 @@ AddPackage btop  # A monitor of system resources, bpytop ported to C++
 AddPackage iftop # Display bandwidth usage on an interface
 AddPackage iotop # View I/O usage of processes
 AddPackage nvtop # GPUs process monitoring for AMD, Intel and NVIDIA
+
+# ups
+AddPackage bc  # An arbitrary precision calculator language
+AddPackage nut # A collection of programs which provide a common interface for monitoring and administering UPS, PDU and SCD hardware
+
+CopyFile /etc/nut/nut.conf
+CopyFile /etc/nut/upsmon.conf 640 '' nut
+CopyFile /etc/systemd/system/nut-monitor.service
+CopyFile /etc/systemd/system/nut.target
+IgnorePath '/var/lib/nut/upssched'
+IgnorePath '/etc/nut/upsd.conf'
+IgnorePath '/etc/nut/upsd.users'
+IgnorePath '/var/lib/nut'
