@@ -3,28 +3,28 @@
 ################################################################################
 
 # With:       reflector @/etc/xdg/reflector/reflector.conf
-# When:       2025-01-17 09:49:36 UTC
+# When:       2025-01-17 12:40:18 UTC
 # From:       https://archlinux.org/mirrors/status/json/
-# Retrieved:  2025-01-17 09:48:11 UTC
-# Last Check: 2025-01-17 09:27:48 UTC
+# Retrieved:  2025-01-17 12:39:38 UTC
+# Last Check: 2025-01-17 12:16:26 UTC
 
-Server = https://asia.mirror.pkgbuild.com/$repo/os/$arch
-Server = https://mirror.osbeck.com/archlinux/$repo/os/$arch
-Server = https://mirror.ubrco.de/archlinux/$repo/os/$arch
-Server = https://europe.mirror.pkgbuild.com/$repo/os/$arch
-Server = https://mirror.sunred.org/archlinux/$repo/os/$arch
-Server = https://archlinux.uk.mirror.allworldit.com/archlinux/$repo/os/$arch
 Server = https://london.mirror.pkgbuild.com/$repo/os/$arch
-Server = https://mirror.pseudoform.org/$repo/os/$arch
-Server = https://mirror.moson.org/arch/$repo/os/$arch
+Server = https://mirror.ubrco.de/archlinux/$repo/os/$arch
 Server = https://archlinux.thaller.ws/$repo/os/$arch
-Server = https://mirror.kumi.systems/archlinux/$repo/os/$arch
-Server = https://mirrors.niyawe.de/archlinux/$repo/os/$arch
-Server = https://de.arch.mirror.kescher.at/$repo/os/$arch
-Server = https://at.arch.mirror.kescher.at/$repo/os/$arch
-Server = https://arch.mirror.constant.com/$repo/os/$arch
-Server = https://md.mirrors.hacktegic.com/archlinux/$repo/os/$arch
-Server = https://america.mirror.pkgbuild.com/$repo/os/$arch
-Server = https://arlm.tyzoid.com/$repo/os/$arch
-Server = https://us.arch.niranjan.co/$repo/os/$arch
+Server = https://mirror.lcarilla.de/archlinux/$repo/os/$arch
+Server = https://mirror.theo546.fr/archlinux/$repo/os/$arch
+Server = https://sydney.mirror.pkgbuild.com/$repo/os/$arch
+Server = https://repo.jing.rocks/archlinux/$repo/os/$arch
+Server = https://al.arch.niranjan.co/$repo/os/$arch
+Server = https://de.arch.niranjan.co/$repo/os/$arch
 Server = https://mirrors.neusoft.edu.cn/archlinux/$repo/os/$arch
+Server = https://archlinux.mailtunnel.eu/$repo/os/$arch
+Server = https://mirrors.pidginhost.com/arch/$repo/os/$arch
+Server = https://mirror.kumi.systems/archlinux/$repo/os/$arch
+Server = https://arch.phinau.de/$repo/os/$arch
+Server = https://pkg.fef.moe/archlinux/$repo/os/$arch
+Server = https://at.arch.mirror.kescher.at/$repo/os/$arch
+Server = https://de.arch.mirror.kescher.at/$repo/os/$arch
+Server = https://america.mirror.pkgbuild.com/$repo/os/$arch
+Server = https://asia.mirror.pkgbuild.com/$repo/os/$arch
+Server = https://europe.mirror.pkgbuild.com/$repo/os/$arch
