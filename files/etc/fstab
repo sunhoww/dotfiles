@@ -1,0 +1,22 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p2 LABEL=ROOT
+UUID=644c4e14-a410-49e5-be0a-d8260013f063	/         	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@	0 0
+
+# /dev/nvme0n1p1 LABEL=EFI
+UUID=AD54-AAAC      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/nvme0n1p2 LABEL=ROOT
+UUID=644c4e14-a410-49e5-be0a-d8260013f063	/.snapshots	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@snapshots	0 0
+
+# /dev/nvme0n1p2 LABEL=ROOT
+UUID=644c4e14-a410-49e5-be0a-d8260013f063	/home     	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@home	0 0
+
+# /dev/nvme0n1p2 LABEL=ROOT
+UUID=644c4e14-a410-49e5-be0a-d8260013f063	/var/cache/pacman/pkg	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@pkg	0 0
+
+# /dev/nvme0n1p2 LABEL=ROOT
+UUID=644c4e14-a410-49e5-be0a-d8260013f063	/var/log  	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@log	0 0
+
