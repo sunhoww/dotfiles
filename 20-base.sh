@@ -1,22 +1,20 @@
 # Fri Jan 17 05:48:47 PM IST 2025 - init
 
-
-AddPackage base # Minimal package set to define a basic Arch Linux installation
-AddPackage base-devel # Basic tools to build Arch Linux packages
-AddPackage git # the fast distributed version control system
-AddPackage linux # The Linux kernel and modules
+AddPackage base           # Minimal package set to define a basic Arch Linux installation
+AddPackage base-devel     # Basic tools to build Arch Linux packages
+AddPackage git            # the fast distributed version control system
+AddPackage linux          # The Linux kernel and modules
 AddPackage linux-firmware # Firmware files for Linux
-AddPackage snap-pac # Pacman hooks that use snapper to create pre/post btrfs snapshots like openSUSE's YaST
-AddPackage snapper # A tool for managing BTRFS and LVM snapshots. It can create, diff and restore snapshots and provides timelined auto-snapping.
-AddPackage vim # Vi Improved, a highly configurable, improved version of the vi text editor
-AddPackage man-db # A utility for reading man pages
-AddPackage man-pages # Linux man pages
-AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+AddPackage snap-pac       # Pacman hooks that use snapper to create pre/post btrfs snapshots like openSUSE's YaST
+AddPackage snapper        # A tool for managing BTRFS and LVM snapshots. It can create, diff and restore snapshots and provides timelined auto-snapping.
+AddPackage vim            # Vi Improved, a highly configurable, improved version of the vi text editor
+AddPackage man-db         # A utility for reading man pages
+AddPackage man-pages      # Linux man pages
+AddPackage reflector      # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
-AddPackage --foreign paru # Feature packed AUR helper
-AddPackage --foreign paru-debug # Detached debugging symbols for paru
-
+AddPackage --foreign paru         # Feature packed AUR helper
+AddPackage --foreign paru-debug   # Detached debugging symbols for paru
 
 CopyFile /boot/loader/entries/arch-fallback.conf 755
 CopyFile /boot/loader/entries/arch.conf 755
