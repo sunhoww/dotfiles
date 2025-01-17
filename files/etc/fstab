@@ -20,3 +20,23 @@ UUID=644c4e14-a410-49e5-be0a-d8260013f063	/var/cache/pacman/pkg	btrfs     	rw,re
 # /dev/nvme0n1p2 LABEL=ROOT
 UUID=644c4e14-a410-49e5-be0a-d8260013f063	/var/log  	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@log	0 0
 
+# /dev/sda1 LABEL=USER
+UUID=81d16fbd-cbe8-44c5-82c8-7d9d05697778	/home/sun/Documents     	btrfs     	noauto,x-systemd.automount,rw,noatime,nodiratime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@Documents	0 2
+
+# /dev/sda1 LABEL=USER
+UUID=81d16fbd-cbe8-44c5-82c8-7d9d05697778	/home/sun/Downloads     	btrfs     	noauto,x-systemd.automount,rw,noatime,nodiratime,compress=zstd:3,ssd,space_cache=v2,subvolid=258,subvol=/@Downloads	0 2
+
+# /dev/sda1 LABEL=USER
+UUID=81d16fbd-cbe8-44c5-82c8-7d9d05697778	/home/sun/Pictures     	btrfs     	noauto,x-systemd.automount,rw,noatime,nodiratime,compress=zstd:3,ssd,space_cache=v2,subvolid=259,subvol=/@Pictures	0 2
+
+# /dev/sda1 LABEL=USER
+UUID=81d16fbd-cbe8-44c5-82c8-7d9d05697778	/home/sun/Music     	btrfs     	noauto,x-systemd.automount,rw,noatime,nodiratime,compress=zstd:3,ssd,space_cache=v2,subvolid=260,subvol=/@Music	0 2
+
+# /dev/sda1 LABEL=USER
+UUID=81d16fbd-cbe8-44c5-82c8-7d9d05697778	/var/lib/docker     	btrfs     	rw,noatime,nodiratime,compress=zstd:3,ssd,space_cache=v2,subvolid=261,subvol=/@docker	0 2
+
+# /dev/sdb1 LABEL=MABUK
+UUID=3082fe29-b434-4797-a80b-fe6484d3721d	/disks/01     	btrfs     	noauto,x-systemd.automount,rw,noatime,nodiratime,subvolid=256,subvol=/@	0 2
+
+# /dev/sdc1
+UUID=79e34dad-05d9-4b99-8c34-d8ef17575767	/disks/02     	ext4     	noauto,x-systemd.automount,rw,noatime,nodiratime	0 2
