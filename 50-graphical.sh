@@ -7,6 +7,10 @@ AddPackage hyprland # a highly customizable dynamic tiling Wayland compositor
 AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage noto-fonts # Google Noto TTF fonts
 AddPackage waybar # Highly customizable Wayland bar for Sway and Wlroots based compositors
+AddPackage fish # Smart and user friendly shell intended mostly for interactive use
+AddPackage starship # The cross-shell prompt for astronauts
+AddPackage ttc-iosevka # Typeface family designed for coding, terminal use and technical documents.
+AddPackage ttf-iosevkaterm-nerd # Patched font Iosevka Term from nerd fonts library
 
 AddPackage --foreign uwsm # A standalone Wayland session manager
 
