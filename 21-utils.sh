@@ -19,3 +19,9 @@ IgnorePath /etc/systemd/system/dbus-org.bluez.service /usr/lib/systemd/system/bl
 IgnorePath '/var/lib/bluetooth'
 IgnorePath '/var/lib/bluetooth/*'
 IgnorePath '/var/lib/upower/*'
+
+# monitoring
+AddPackage btop  # A monitor of system resources, bpytop ported to C++
+AddPackage iftop # Display bandwidth usage on an interface
+AddPackage iotop # View I/O usage of processes
+AddPackage nvtop # GPUs process monitoring for AMD, Intel and NVIDIA
