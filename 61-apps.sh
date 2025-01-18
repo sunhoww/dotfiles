@@ -3,3 +3,6 @@
 AddPackage firefox # Fast, Private & Safe Web Browser
 
 AddPackage --foreign google-chrome # The popular web browser by Google (Stable Channel)
+
+AddPackage gimp # GNU Image Manipulation Program
+IgnorePath '/usr/lib/gtk-2.0/*'
