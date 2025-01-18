@@ -25,6 +25,7 @@ AddPackage btop  # A monitor of system resources, bpytop ported to C++
 AddPackage iftop # Display bandwidth usage on an interface
 AddPackage iotop # View I/O usage of processes
 AddPackage nvtop # GPUs process monitoring for AMD, Intel and NVIDIA
+AddPackage duf   # Disk Usage/Free Utility
 
 # ups
 AddPackage bc  # An arbitrary precision calculator language
