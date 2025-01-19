@@ -14,3 +14,5 @@ IgnorePath '/usr/share/vim/vimfiles/doc/tags'
 AddPackage fd      # Simple, fast and user-friendly alternative to find
 AddPackage lazygit # Simple terminal UI for git commands
 AddPackage ripgrep # A search tool that combines the usability of ag with the raw speed of grep
+
+AddPackage mkcert # Simple tool for making locally-trusted development certificates
