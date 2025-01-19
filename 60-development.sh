@@ -16,3 +16,16 @@ AddPackage lazygit # Simple terminal UI for git commands
 AddPackage ripgrep # A search tool that combines the usability of ag with the raw speed of grep
 
 AddPackage mkcert # Simple tool for making locally-trusted development certificates
+
+# Sun Jan 19 06:07:20 PM IST 2025 - docker
+
+AddPackage docker         # Pack, ship and run any application as a lightweight container
+AddPackage docker-buildx  # Docker CLI plugin for extended build capabilities with BuildKit
+AddPackage docker-compose # Fast, isolated development environments using Docker
+
+IgnorePath '/etc/cni'
+IgnorePath '/opt/containerd'
+IgnorePath '/var/lib/containerd'
+
+CopyFile /etc/docker/daemon.json
+CreateLink /etc/systemd/system/sockets.target.wants/docker.socket /usr/lib/systemd/system/docker.socket
