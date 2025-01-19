@@ -40,3 +40,9 @@ IgnorePath '/var/lib/nut/upssched'
 IgnorePath '/etc/nut/upsd.conf'
 IgnorePath '/etc/nut/upsd.users'
 IgnorePath '/var/lib/nut'
+
+# Sun Jan 19 10:57:56 PM IST 2025 - transmission
+
+AddPackage transmission-cli # Fast, easy, and free BitTorrent client (CLI tools, daemon and web client)
+
+IgnorePath '/var/lib/transmission'
