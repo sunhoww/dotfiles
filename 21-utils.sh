@@ -3,6 +3,7 @@
 AddPackage unzip # For extracting and viewing files in .zip archives
 AddPackage wget  # Network utility to retrieve files from the Web
 AddPackage pass  # Stores, retrieves, generates, and synchronizes passwords securely
+AddPackage fuse2 # Interface for userspace programs to export a filesystem to the Linux kernel
 
 # pipewire
 AddPackage pipewire-alsa  # Low-latency audio/video router and processor - ALSA configuration
