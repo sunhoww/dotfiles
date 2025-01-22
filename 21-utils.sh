@@ -1,10 +1,11 @@
 # Fri Jan 17 07:22:24 PM IST 2025 - utils
 
-AddPackage unzip   # For extracting and viewing files in .zip archives
-AddPackage wget    # Network utility to retrieve files from the Web
-AddPackage pass    # Stores, retrieves, generates, and synchronizes passwords securely
-AddPackage fuse2   # Interface for userspace programs to export a filesystem to the Linux kernel
-AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
+AddPackage unzip       # For extracting and viewing files in .zip archives
+AddPackage wget        # Network utility to retrieve files from the Web
+AddPackage pass        # Stores, retrieves, generates, and synchronizes passwords securely
+AddPackage fuse2       # Interface for userspace programs to export a filesystem to the Linux kernel
+AddPackage openssh     # SSH protocol implementation for remote login, command execution and file transfer
+AddPackage imagemagick # An image viewing/manipulation program
 
 # pipewire
 AddPackage pipewire-alsa  # Low-latency audio/video router and processor - ALSA configuration
