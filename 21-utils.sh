@@ -49,3 +49,10 @@ IgnorePath '/var/lib/nut'
 AddPackage transmission-cli # Fast, easy, and free BitTorrent client (CLI tools, daemon and web client)
 
 IgnorePath '/var/lib/transmission'
+
+# Sun Jan 26 01:28:07 AM IST 2025 - openvpn
+
+AddPackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
+
+IgnorePath '/etc/openvpn/client'
+IgnorePath '/etc/openvpn/server'
