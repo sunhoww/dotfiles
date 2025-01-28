@@ -56,3 +56,9 @@ AddPackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual
 
 IgnorePath '/etc/openvpn/client'
 IgnorePath '/etc/openvpn/server'
+
+# Tue Jan 28 09:33:41 PM IST 2025 - restic backup server
+
+CopyFile /etc/systemd/system/restic-server.service
+CopyFile /etc/systemd/system/restic-server.timer
+CreateLink /etc/systemd/system/timers.target.wants/restic-server.timer /etc/systemd/system/restic-server.timer

@@ -1,0 +1,9 @@
+[Unit]
+Description=Manage restic rest-server
+
+[Service]
+WorkingDirectory=/home/sun/Development/tools/restic
+ExecStart=/bin/bash -c 'timeout 1800 docker compose up || exit 0'
+
+[Install]
+WantedBy=multi-user.target
