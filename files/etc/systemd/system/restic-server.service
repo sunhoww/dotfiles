@@ -2,7 +2,7 @@
 Description=Manage restic rest-server
 
 [Service]
-WorkingDirectory=/home/sun/Development/tools/restic
+WorkingDirectory=/home/sun/Development/local/restic
 ExecStart=/bin/bash -c 'timeout 1800 docker compose up || exit 0'
 
 [Install]
