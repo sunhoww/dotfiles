@@ -6,8 +6,7 @@ AddPackage hyprland   # a highly customizable dynamic tiling Wayland compositor
 AddPackage mako       # Lightweight notification daemon for Wayland
 AddPackage noto-fonts # Google Noto TTF fonts
 AddPackage waybar     # Highly customizable Wayland bar for Sway and Wlroots based compositors
-
-AddPackage --foreign uwsm # A standalone Wayland session manager
+AddPackage uwsm       # A standalone Wayland session manager
 
 IgnorePath '/etc/fonts/conf.d/*'
 IgnorePath '/etc/systemd/user/pipewire-session-manager.service'
