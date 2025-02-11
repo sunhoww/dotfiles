@@ -4,7 +4,6 @@ AddPackage unzip       # For extracting and viewing files in .zip archives
 AddPackage wget        # Network utility to retrieve files from the Web
 AddPackage pass        # Stores, retrieves, generates, and synchronizes passwords securely
 AddPackage fuse2       # Interface for userspace programs to export a filesystem to the Linux kernel
-AddPackage openssh     # SSH protocol implementation for remote login, command execution and file transfer
 AddPackage imagemagick # An image viewing/manipulation program
 
 # pipewire
@@ -63,9 +62,19 @@ CopyFile /etc/systemd/system/restic-server.service
 CopyFile /etc/systemd/system/restic-server.timer
 CreateLink /etc/systemd/system/timers.target.wants/restic-server.timer /etc/systemd/system/restic-server.timer
 
-# Tue Feb 11 12:39:35 PM IST 2025 - Unknown packages
+# Tue Feb 11 12:39:35 PM IST 2025 - tailscale
 
 AddPackage tailscale # A mesh VPN that makes it easy to connect your devices, wherever they are.
 
 IgnorePath '/var/lib/tailscale'
 CreateLink /etc/systemd/system/multi-user.target.wants/tailscaled.service /usr/lib/systemd/system/tailscaled.service
+
+# Tue Feb 11 12:46:06 PM IST 2025 - openssh
+
+AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
+
+IgnorePath '/etc/ssh/*_key'
+IgnorePath '/etc/ssh/*_key.pub'
+CopyFile /etc/ssh/sshd_config.d/20-deny-root.conf
+CopyFile /etc/ssh/sshd_config.d/20-force_publickey_auth.conf
+CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/systemd/system/sshd.service
