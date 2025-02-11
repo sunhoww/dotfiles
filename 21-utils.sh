@@ -62,3 +62,10 @@ IgnorePath '/etc/openvpn/server'
 CopyFile /etc/systemd/system/restic-server.service
 CopyFile /etc/systemd/system/restic-server.timer
 CreateLink /etc/systemd/system/timers.target.wants/restic-server.timer /etc/systemd/system/restic-server.timer
+
+# Tue Feb 11 12:39:35 PM IST 2025 - Unknown packages
+
+AddPackage tailscale # A mesh VPN that makes it easy to connect your devices, wherever they are.
+
+IgnorePath '/var/lib/tailscale'
+CreateLink /etc/systemd/system/multi-user.target.wants/tailscaled.service /usr/lib/systemd/system/tailscaled.service
