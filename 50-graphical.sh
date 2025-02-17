@@ -1,12 +1,14 @@
 # Fri Jan 17 06:35:04 PM IST 2025 - desktop
 
-AddPackage foot       # Fast, lightweight, and minimalistic Wayland terminal emulator
-AddPackage fuzzel     # Application launcher for wlroots based Wayland compositors
-AddPackage hyprland   # a highly customizable dynamic tiling Wayland compositor
-AddPackage mako       # Lightweight notification daemon for Wayland
-AddPackage noto-fonts # Google Noto TTF fonts
-AddPackage waybar     # Highly customizable Wayland bar for Sway and Wlroots based compositors
-AddPackage uwsm       # A standalone Wayland session manager
+AddPackage foot             # Fast, lightweight, and minimalistic Wayland terminal emulator
+AddPackage fuzzel           # Application launcher for wlroots based Wayland compositors
+AddPackage hyprland         # a highly customizable dynamic tiling Wayland compositor
+AddPackage mako             # Lightweight notification daemon for Wayland
+AddPackage noto-fonts       # Google Noto TTF fonts
+AddPackage noto-fonts-cjk   # Google Noto CJK fonts
+AddPackage noto-fonts-emoji # Google Noto emoji fonts
+AddPackage waybar           # Highly customizable Wayland bar for Sway and Wlroots based compositors
+AddPackage uwsm             # A standalone Wayland session manager
 
 IgnorePath '/etc/fonts/conf.d/*'
 IgnorePath '/etc/systemd/user/pipewire-session-manager.service'
