@@ -29,3 +29,7 @@ IgnorePath '/var/lib/containerd'
 
 CopyFile /etc/docker/daemon.json
 CreateLink /etc/systemd/system/sockets.target.wants/docker.socket /usr/lib/systemd/system/docker.socket
+
+# Thu Feb 20 01:07:04 PM IST 2025 - nodejs
+
+AddPackage nodejs # Evented I/O for V8 javascript ("Current" release)
