@@ -7,3 +7,6 @@ AddPackage --foreign google-chrome # The popular web browser by Google (Stable C
 
 AddPackage gimp # GNU Image Manipulation Program
 IgnorePath '/usr/lib/gtk-2.0/*'
+
+AddPackage flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)
+IgnorePath '/var/lib/flatpak'
