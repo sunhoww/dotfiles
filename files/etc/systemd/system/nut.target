@@ -1,0 +1,7 @@
+[Unit]
+Description=Network UPS Tools (Overridden) - target for power device drivers, data server and monitoring client (if enabled) on this system
+After=local-fs.target nut-monitor.service
+Wants=local-fs.target nut-monitor.service
+
+[Install]
+WantedBy=multi-user.target
