@@ -8,6 +8,7 @@ AddPackage linux-firmware # Firmware files for Linux
 AddPackage vim            # Vi Improved, a highly configurable, improved version of the vi text editor
 AddPackage man-db         # A utility for reading man pages
 AddPackage man-pages      # Linux man pages
+AddPackage stow           # Manage installation of multiple softwares in the same directory tree
 
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 
