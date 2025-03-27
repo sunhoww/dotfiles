@@ -37,3 +37,7 @@ AddPackage nodejs # Evented I/O for V8 javascript ("Current" release)
 # Thu Mar  6 11:48:18 AM IST 2025 - gh
 
 AddPackage github-cli # The GitHub CLI
+
+# Thu Mar 27 08:06:44 AM IST 2025 - z
+
+AddPackage zoxide # A smarter cd command for your terminal
