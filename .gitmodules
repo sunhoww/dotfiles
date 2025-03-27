@@ -16,3 +16,9 @@
 [submodule "graphical/.local/share/catppuccin/bat"]
 	path = graphical/.local/share/catppuccin/bat
 	url = https://github.com/catppuccin/bat.git
+[submodule "graphical/.local/share/catppuccin/starship"]
+	path = graphical/.local/share/catppuccin/starship
+	url = https://github.com/catppuccin/starship.git
+[submodule "graphical/.local/share/catppuccin/fish"]
+	path = graphical/.local/share/catppuccin/fish
+	url = https://github.com/catppuccin/fish.git
