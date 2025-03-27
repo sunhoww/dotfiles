@@ -1,0 +1,33 @@
+{
+  "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/window",
+    "sway/workspaces",
+    "sway/mode",
+    "sway/window"
+  ],
+  "hyprland/workspaces": {
+    "format": "{icon}{windows}",
+    "format-window-separator": "",
+    "window-rewrite-default": " 󰘔 ",
+    "window-rewrite": {
+      "class<foot>": "  ",
+      "class<foot> title<.*vim.*>": "  ",
+      "class<google-chrome>": "  ",
+      "class<steam>": "  "
+    }
+  },
+  "hyprland/window": {
+    "separate-outputs": true
+  },
+  "sway/workspaces": {
+    "disable-scroll": true,
+    "format": "{icon}"
+  },
+  "sway/mode": {
+    "format": "<span style=\"italic\">{}</span>"
+  },
+  "sway/window": {
+    "format": "{title}"
+  }
+}

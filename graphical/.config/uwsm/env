@@ -1,0 +1,4 @@
+export XCURSOR_SIZE=24
+export TERMINAL=/usr/bin/foot
+export EDITOR=/usr/bin/nvim
+

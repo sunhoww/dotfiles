@@ -1,0 +1,158 @@
+@import "themes/mocha.css";
+
+* {
+  border: none;
+  border-radius: 0;
+  font-family: Iosevka Term NF;
+  font-size: 13px;
+  min-height: 0;
+}
+
+window#waybar {
+  background-color: transparent;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#workspaces {
+  margin: 0 2px;
+}
+
+#workspaces button {
+  color: @subtext1;
+  background-color: @base;
+  padding: 4px 8px;
+}
+
+#workspaces button:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+#workspaces button:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#workspaces button:hover {
+  background-color: @surface1;
+  color: @base;
+  box-shadow: none;
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+  background-color: @sapphire;
+  color: @base;
+}
+
+#workspaces button.urgent {
+  background-color: @red;
+}
+
+#window {
+  background-color: @subtext0;
+  color: @base;
+  border-radius: 4px;
+  padding: 0 12px;
+  margin: 0 2px;
+  font-size: 12px;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+}
+
+#submap,
+#mode {
+  background-color: @sapphire;
+  margin: 0 2px;
+}
+
+#disk,
+#cpu,
+#memory,
+#network,
+#clock,
+#temperature,
+#keyboard-state,
+#battery,
+#bluetooth,
+#pulseaudio,
+#mode,
+#idle_inhibitor,
+#custom-ups,
+#tray {
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 0 2px;
+  background-color: @subtext1;
+  color: @base;
+}
+
+#custom-ups.charging,
+#custom-ups.plugged {
+  color: @base;
+  background-color: @green;
+}
+
+@keyframes blink {
+  to {
+    background-color: @text;
+    color: @base;
+  }
+}
+
+#battery.critical:not(.charging) {
+  background-color: @red;
+  color: @base;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#network.disconnected {
+  background-color: @red;
+}
+
+#pulseaudio.muted {
+  background-color: @lavender;
+  color: @base;
+}
+
+#temperature.critical {
+  background-color: @red;
+}
+
+#tray {
+  background-color: @sapphire;
+  color: @base;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: @red;
+}
+
+#idle_inhibitor.activated {
+  background-color: @overlay2;
+  color: @base;
+}
+
+#keyboard-state > label {
+  padding: 0 4px;
+}
+
+#keyboard-state > label.locked {
+  font-weight: bold;
+}

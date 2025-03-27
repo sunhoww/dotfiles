@@ -1,0 +1,18 @@
+[submodule "graphical/.local/share/catppuccin/foot"]
+	path = graphical/.local/share/catppuccin/foot
+	url = https://github.com/catppuccin/foot.git
+[submodule "graphical/.local/share/catppuccin/fuzzel"]
+	path = graphical/.local/share/catppuccin/fuzzel
+	url = https://github.com/catppuccin/fuzzel.git
+[submodule "graphical/.local/share/catppuccin/hyprland"]
+	path = graphical/.local/share/catppuccin/hyprland
+	url = https://github.com/catppuccin/hyprland.git
+[submodule "graphical/.local/share/catppuccin/waybar"]
+	path = graphical/.local/share/catppuccin/waybar
+	url = https://github.com/catppuccin/waybar.git
+[submodule "graphical/.local/share/catppuccin/yazi"]
+	path = graphical/.local/share/catppuccin/yazi
+	url = https://github.com/catppuccin/yazi.git
+[submodule "graphical/.local/share/catppuccin/bat"]
+	path = graphical/.local/share/catppuccin/bat
+	url = https://github.com/catppuccin/bat.git
