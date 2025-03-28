@@ -11,3 +11,8 @@ IgnorePath '/usr/lib/gtk-2.0/*'
 
 AddPackage flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)
 IgnorePath '/var/lib/flatpak'
+
+# Thu Mar 27 11:38:10 PM IST 2025 - 3d
+
+AddPackage freecad            # Feature based parametric 3D CAD modeler
+AddPackage --foreign cura-bin # State-of-the-art slicer app to prepare your 3D models for your 3D printer
