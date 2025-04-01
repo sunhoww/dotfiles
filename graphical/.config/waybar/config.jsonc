@@ -22,9 +22,9 @@
       "format": "󰍛 {percentage}% {avail:0.1f}G",
     },
     "network": {
-      "format": " {bandwidthDownBytes}  {bandwidthUpBytes}",
+      "format": "󰇚 {bandwidthDownBytes} 󰕒 {bandwidthUpBytes}",
       "format-disconnected": "",
-      "format-alt": " {bandwidthDownBits}  {bandwidthUpBits}",
+      "format-alt": "󰇚 {bandwidthDownBits} 󰕒 {bandwidthUpBits}",
       "interval": 5,
     },
     "clock": {
