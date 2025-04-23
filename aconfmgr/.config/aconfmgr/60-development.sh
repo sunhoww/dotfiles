@@ -41,3 +41,7 @@ AddPackage github-cli # The GitHub CLI
 # Thu Mar 27 08:06:44 AM IST 2025 - z
 
 AddPackage zoxide # A smarter cd command for your terminal
+
+# Wed Apr 23 01:26:59 PM IST 2025 - python
+
+AddPackage uv # An extremely fast Python package installer and resolver written in Rust
