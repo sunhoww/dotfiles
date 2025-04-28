@@ -15,5 +15,6 @@ IgnorePath '/var/lib/flatpak'
 # Thu Mar 27 11:38:10 PM IST 2025 - 3d
 
 AddPackage freecad                   # Feature based parametric 3D CAD modeler
+AddPackage openscad                  # The programmers solid 3D CAD modeller
 AddPackage --foreign cura-bin        # State-of-the-art slicer app to prepare your 3D models for your 3D printer
 AddPackage --foreign orca-slicer-bin # G-code generator for 3D printers
