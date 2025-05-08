@@ -6,6 +6,8 @@ AddPackage starship             # The cross-shell prompt for astronauts
 AddPackage ttc-iosevka          # Typeface family designed for coding, terminal use and technical documents.
 AddPackage ttf-iosevkaterm-nerd # Patched font Iosevka Term from nerd fonts library
 
+AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
+
 # fzf
 AddPackage fzf # Command-line fuzzy finder
 
