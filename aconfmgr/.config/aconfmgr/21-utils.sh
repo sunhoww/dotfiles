@@ -51,7 +51,8 @@ IgnorePath '/var/lib/transmission'
 
 # Sun Jan 26 01:28:07 AM IST 2025 - openvpn
 
-AddPackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
+AddPackage openvpn                                   # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
+AddPackage --foreign openvpn-update-systemd-resolved # OpenVPN systemd-resolved Updater
 
 IgnorePath '/etc/openvpn/client'
 IgnorePath '/etc/openvpn/server'
