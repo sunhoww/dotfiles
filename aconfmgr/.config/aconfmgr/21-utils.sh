@@ -79,3 +79,7 @@ IgnorePath '/etc/ssh/*_key.pub'
 CopyFile /etc/ssh/sshd_config.d/20-deny-root.conf
 CopyFile /etc/ssh/sshd_config.d/20-force_publickey_auth.conf
 CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/systemd/system/sshd.service
+
+# Fri May 23 12:13:38 AM IST 2025 - downgrade
+
+AddPackage --foreign downgrade # Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
