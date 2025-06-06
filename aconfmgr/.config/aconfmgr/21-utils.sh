@@ -43,6 +43,7 @@ CopyFile /etc/systemd/system/nut.target
 IgnorePath '/var/lib/nut/upssched'
 IgnorePath '/etc/nut/upsd.conf'
 IgnorePath '/etc/nut/upsd.users'
+IgnorePath '/etc/nut/*.conf.pacnew'
 IgnorePath '/var/lib/nut'
 
 # Sun Jan 19 10:57:56 PM IST 2025 - transmission
