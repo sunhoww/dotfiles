@@ -30,6 +30,7 @@ AddPackage iftop # Display bandwidth usage on an interface
 AddPackage iotop # View I/O usage of processes
 AddPackage nvtop # GPUs process monitoring for AMD, Intel and NVIDIA
 AddPackage duf   # Disk Usage/Free Utility
+AddPackage ldns  # Fast DNS library supporting recent RFCs
 
 # ups
 AddPackage bc  # An arbitrary precision calculator language
